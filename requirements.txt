@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+chromadb
+groq
+pymupdf
+pydantic
+python-multipart
+httpx
+python-dotenv
+json-repair
+langchain-text-splitters
+pdfplumber
+pg8000
+redis

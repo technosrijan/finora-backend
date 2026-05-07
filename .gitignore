@@ -1,0 +1,51 @@
+# ── Finora Backend .gitignore ─────────────────────────────────────────────
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database (local SQLite)
+*.db
+*.db-wal
+*.db-shm
+
+# Uploads & ChromaDB (local dev only)
+reports/
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dev/debug scripts
+debug_*.py
+patch_*.py
+rewrite_*.py
+reset_db.py
+test_*.py
+
+# Deploy
+deploy/

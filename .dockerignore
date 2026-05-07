@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local data (recreated in container)
+finora.db
+finora.db-shm
+finora.db-wal
+chroma_db/
+reports/
+
+# Environment (injected at runtime)
+.env
+.env.local
+
+# Tests (if any)
+tests/
+pytest.ini
+.coverage
+htmlcov/
+
+# Docs
+README.md
+*.md
+
+# OS
+.DS_Store
+Thumbs.db
